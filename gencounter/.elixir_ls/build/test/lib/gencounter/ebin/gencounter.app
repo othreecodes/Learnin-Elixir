@@ -1,0 +1,10 @@
+{application,gencounter,
+             [{applications,[kernel,stdlib,elixir,logger,gen_stage]},
+              {description,"gencounter"},
+              {modules,['Elixir.Gencounter','Elixir.Gencounter.Application',
+                        'Elixir.Gencounter.Consumer',
+                        'Elixir.Gencounter.Producer',
+                        'Elixir.Gencounter.ProducerConsumer']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Gencounter.Application',[]}}]}.
